@@ -23,5 +23,5 @@
  4) jar 파일을 이용해 자바 옵션만으로 쉽게 배포 가능
 
 #### Spring Boot Strater란
-nom처럼 간편하게 dependency를 제공
+npm처럼 간편하게 dependency를 제공
 <i>spring-boot-starter-*</i>
