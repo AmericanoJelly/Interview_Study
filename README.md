@@ -24,6 +24,6 @@
  4) jar 파일을 이용해 자바 옵션만으로 쉽게 배포 가능
 
 #### Spring Boot Starter란
-npm처럼 간편하게 dependency를 제공
-*부분에 원하는 스타터명을 명시하면 된다. 
+npm처럼 간편하게 dependency를 제공<br>
+*부분에 원하는 스타터명을 명시하면 된다.<br> 
 <i>spring-boot-starter-*</i>
