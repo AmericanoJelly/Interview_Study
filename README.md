@@ -25,5 +25,5 @@
 
 #### Spring Boot Starter란
 npm처럼 간편하게 dependency를 제공<br>
-"*"부분에 원하는 스타터명을 명시하면 된다.<br> 
-<i>spring-boot-starter-"*"</i>
+&#42; 부분에 원하는 스타터명을 명시하면 된다.<br> 
+<i>spring-boot-starter- &#42;</i>
