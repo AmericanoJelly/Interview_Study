@@ -11,8 +11,15 @@
  3) XML 설정을 하지 않아도 된다
  4) jar 파일을 이용해 자바 옵션만으로 쉽게 배포 가능
 
-#### Spring Boot Starter란
-npm처럼 간편하게 dependency를 제공<br>
-&#42; 부분에 원하는 스타터명을 명시하면 된다.<br> 
-<i>spring-boot-starter- &#42;</i>
-
+### IOC /AOP / DI
+IOC Inversion of Control
+ 1) 제어의 역전
+ 2) 프레임워크 라이프 사이클을 관리 / 빈의 생성부터 소멸까지 모든 생명주기를 관리
+ 3) IOC 컨테이너는 객체의 생성, 초기화, 서비스 소멸에 관한 모든 권한을 가지면서 객체의 생명주기를 관리
+AOP Aspect Oriented Progarmming
+ 1) 관점지향프로그래밍 
+ 2) 반복되는 코드를 모아서 필요한 시기에 적절하게 적용
+ 3) 중복되는 코드 제거, 유지 보수성 향상
+DI Dependency Injection
+ 1) 의존성 주입
+ 2)
