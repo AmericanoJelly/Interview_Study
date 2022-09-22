@@ -11,15 +11,16 @@
  3) XML 설정을 하지 않아도 된다
  4) jar 파일을 이용해 자바 옵션만으로 쉽게 배포 가능
 
-### IOC /AOP / DI
+### IOC /AOP / DI 
 IOC Inversion of Control
  1) 제어의 역전
  2) 프레임워크 라이프 사이클을 관리 / 빈의 생성부터 소멸까지 모든 생명주기를 관리
  3) IOC 컨테이너는 객체의 생성, 초기화, 서비스 소멸에 관한 모든 권한을 가지면서 객체의 생명주기를 관리
-AOP Aspect Oriented Progarmming
+AOP Aspect Oriented Progarmming > OOP
  1) 관점지향프로그래밍 
  2) 반복되는 코드를 모아서 필요한 시기에 적절하게 적용
  3) 중복되는 코드 제거, 유지 보수성 향상
 DI Dependency Injection
  1) 의존성 주입
- 2)
+ 2) 특정 객체가 필요하다면 객체를 외부에서 가져다가 주입하는 방식
+ 3) 클래스 객체를 개발자가 코드에서 생성하지 않고 프레임워크가 생성하여 사용하는 방법
