@@ -48,6 +48,7 @@ DI Dependency Injection
 그것을 캡슐화(Encapsulation)해 한 군데에 모아 객체를 만들고, 
 새로운 객체가 상속(Inheritance)받아 재사용이 가능하게 만들어 준다.
 상속받은 객체는 다형성(Polymorphism)을 통해 기능을 수정 또는 추가하여 재사용할 수 있다
+
 ### OOP의 장점
  1) 코드 재사용성 증가
    상속을 통해 프로그래밍시 코드의 재사용을 높일 수 있다.
