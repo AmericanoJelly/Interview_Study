@@ -85,12 +85,17 @@ Overriding
 ### Process와 Thread의 차이점
 Process
  - 운영체제로부터 CPU를 할당받고 프로그램이 실행되고 있는 상태.
- - 
+ - 실행중인 프로그램
 Thread
  - 프로세스 내에서 실행되는 흐름의 단위
+ - 프로세스보다 크기가 작은 실행 단위 필요
+ - 프로세스의 생성 및 소멸에 따른 오버헤드 감소
+ - 빠른 컨텍스트 스위칭
+ - 프로세스들의 통신 시간, 방법 어려움 해소
 
-- Process와 Thread의 차이점
-- 동기/비동기 차이점
+
+
+
 - Queue와 Stack의 차이점과 응용 사례
 - Call by reference와 Call by value 비교 설명
 - Array와 List(ArrayList LinkedList) 차이점
