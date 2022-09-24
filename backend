@@ -132,8 +132,6 @@ Call by value(값에 의한 호출)
 - SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
 - MSA(Micro Service Architecture) 개념
 - 프레임워크랑 라이브러리 차이
-- 프레임워크 장점
-- 스프링 프레임워크 특징이나 기능 아는대로 설명
 - ORM이 뭔지? JPA 설명
 - jpa 장단점
 - 대용량데이터 사용시 jpa에서 특정데이터만 가져올때 기본 함수에 원하는 명령어가 없을때 어떻게 해야하는지
@@ -141,7 +139,6 @@ Call by value(값에 의한 호출)
 - NODE.JS의 장점과 단점
 - Soket의 작동 원리
 - 프로젝트에서 DB 연결과정
-- 세션과 쿠키 차이점
 - Http 프로토콜에 대해 아는지
 - 클라이언트와 서버가 무엇인가
 - stomp 와 soket.io 차이점이 뭔지와 어떤게 더 편했는지
