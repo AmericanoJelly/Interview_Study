@@ -1,0 +1,141 @@
+2021년 하반기 더존비즈온 풀스택 1반 프로젝트 발표 질의 및 최종 인터뷰 질문
+
+-----------------------------------------------------------
+1. 프로젝트 발표 질의
+
+<1조: 실시간 스트리밍 서비스 플랫폼>
+- Project 선정 사유는 무엇인가?
+- 개발 시 어려웠던 점
+- 성능 문제: 접속자 수 대비 server가 얼마만큼 버틸 수 있을까?
+- 동영상 업로드시 progress bar 넣을 것.
+- 녹화 contents는 어디에 저장되는가?
+- 방송 contents는 big data가 될 수 있는데 어떻게 관리할건지?
+- 동영상 추천 기능: 데이터 분석을 기반으로 하는 추천 기능 필요
+- 동영상 컨텐츠의 검색에 있어서 제목, 내용을 기준으로 검색할 수 있도록 개선 필요
+- Project 시간이 좀 더 길었다면 보완할 기능이 있었는지? 무엇인지?
+				
+<2조: Cross platform 근태 관리 시스템>
+- WiFi 부정 사용에 대한 대책
+- React Native expo cli : CORS 정책 문제 해결
+- 출석 및 외출 기능에 있어 관리자가 check해야 하는 부분은 무엇인가?
+- 시간이 더 주어졌다면 추가로 구현했을 기능은?
+
+<3조: 1.3	설문 조사 시스템>
+- 설문 답을 안하고 넘어가는 경우, 필수 응답 또는 필수 응답이 아닌 경우, 질문 선후 관계가 있을 경우에 대한 구현 방안
+- MongoDB 사용 이유
+- RDB(MySQL)와 NoSQL(MongoDB) 구분 사용 이유
+- 시간이 더 주어졌다면 추가로 구현했을 기능은? : 질문의 유형 확대. 꼬리 질문 기능
+
+<4조: 병원 예약 시스템>
+- Project 기획 의도
+- 참조 site는 있었는가? 어떤 site 인가?
+- 사용자가 왜 이 시스템을 사용해야 하는가?
+- 예약 사항이 병원 거절일 경우 대책이 되는 기능은 무엇인가? : 안내 문자 등…
+- 타 병원 예약 시스템과의 차별성은?
+- 전체 기능 중 타 시스템과의 기술적 차별성은 무엇인가?
+- Mobile version 개발 필요
+- 시간이 더 주어졌다면 추가로 구현했을 기능은?
+
+<5조: 유통기한 임박 상품 판매/구매 matching system>
+- Component는 모두 typescript로 작성함
+- 상품 검색, 정렬, 추천 기능 필요
+- 3명의 팀원으로 개발하는데 어려움 없었는가?
+- 상품화되었을 때 수익 모델은?
+- 상품 유통기한이 지났을 때 발생가능한 위험성에 대한 대책은?
+- Project idea 창출자는 누구인가?
+- 유사 프로그램이 있는가?
+
+<6조: 농장 관리 시스템>
+- Project idea 창출자는 누구인가?
+- Redis를 통한 Cache 사용 사유: 공공 API를 사용하는 경우
+- Mobile version을 함께 만들지 않은 이유
+- 개발 중 어려웠던 점: DB 설계(기능적 연계성이 많아 table의 join이 많이 일어남
+
+<7조: 물류 관리 시스템>
+- Project idea를 정한 이유는?
+- BOM 관리는 어떤 방법으로 하는가?
+- 인쇄 기능이 필요함
+- 개발 과정 중 애로 사항
+- 개발 기간이 짧아서 구현하지 못했던 기능은?
+
+<추가 공통 질문들...>
+- 같은 프로젝트를 한 다른 조와의 차별성
+
+-----------------------------------------------------------
+2. 최종 인터뷰 질문
+
+<1.Database>
+- DML, DML
+- MySQL scheduler
+- 무한 스크롤 시에 DB access 방안은?
+- DB trigger 
+- Inner join, Outer join
+- group by 연산
+- 동시에 db access 할 때의 처리 방안
+- join 할 때 주의해야 할 점
+- Sequence, Procedure, Function, Trigger, Index
+- varchar와 char의 차이는 무엇인가?
+- 데이터 베이스 정규화 정의
+
+<2.Frontend>
+- React에서 code split의 개념
+- React 구현 방법, 어떻게 적용했는지
+- Functional programming과 Class programming과의 차이점
+- Class 컴포넌트와 Functional component
+- Restful
+- 상태관리 라이브러리 사용했는지
+- jwt 왜 사용했는지 
+- session 어떻게 저장했는지 , JWT 사용했는지
+- 프로젝트 UI 화면 왜 그렇게 설계했는지
+- 데이터 베이스 설계 할 때 왜 그렇게 설계하고 PK를 그걸로 잡았는지
+- 왜 MUI 사용했는지
+- hash 라우터 왜 사용했는지
+- webpack babel 에서 target 이 뭔지 
+
+<3.Back-end>
+- AOP와 DI정의
+- Architecture 설계 및 구현 방법
+- Spring의 장점과 주요 개념(DI, AOP)
+- OOP의 개념
+- 상속(extends)와 구현(implements)의 차이점
+- Overloading과 Overriding의 차이점
+- Process와 Thread의 차이점
+- 동기/비동기 차이점
+- Queue와 Stack의 차이점과 응용 사례
+- Call by reference와 Call by value 비교 설명
+- Array와 List(ArrayList LinkedList) 차이점
+- 알고 있는 자료구조 알고리즘
+- 인기 있는 Web 개발 framework, JavaScript framework(React, Vue 등…)
+- SSR(Server Side Rendering), CSR(Client Side Rendering) 차이점
+- MSA(Micro Service Architecture) 개념
+- 프레임워크랑 라이브러리 차이
+- 프레임워크 장점
+- 스프링 프레임워크 특징이나 기능 아는대로 설명
+- ORM이 뭔지? JPA 설명
+- jpa 장단점
+- 대용량데이터 사용시 jpa에서 특정데이터만 가져올때 기본 함수에 원하는 명령어가 없을때 어떻게 해야하는지
+- 개발해보면서 트러블슈팅 가장 오래걸렸던 기간
+- 왜 Node.js를 사용했는지
+- NODE.JS의 장점과 단점
+- Soket의 작동 원리
+- 프로젝트에서 DB 연결과정
+- 세션과 쿠키 차이점
+- Http 프로토콜에 대해 아는지
+- 클라이언트와 서버가 무엇인가
+- stomp 와 soket.io 차이점이 뭔지와 어떤게 더 편했는지
+
+
+<4.인성>
+- 30초 동안 자기 소개: 자신 있는 자기 장점 appeal
+- 부서 지원 이유
+- 장단기 개발 목표
+- 10년 후 자신의 모습은?
+- Project 시에 어려웠던 점
+- 당신이 고객이라면 이 시스템을 쓰겠느냐?
+- 직무 선택 이유
+- 서울, 강촌, 해외 근무 가능한지?
+- DB 설계는 누가 했는지?
+- 자신이 맡은 구현 기능 설명하기
+- 자신의 롤모델을 두 사람 들고 누구이며 왜 그런가?
+- 개발자에게 중요하다고 생각하는 덕목?
+- 프로젝트하면서 힘들었던 점
